@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>dotnetapigateway</name>
+    </assembly>
+    <members>
+        <member name="M:dotnetapigateway.Controllers.GatewayController.CallDotnetService(System.String)">
+            <summary>
+            Available API endpoints for Dotnet Service are:
+            hello
+            callservice2
+            </summary>
+        </member>
+        <member name="M:dotnetapigateway.Controllers.GatewayController.CallNodeService(System.String)">
+            <summary>
+            Available API endpoints for Node JS Service are:
+            hello
+            </summary>
+        </member>
+        <member name="M:dotnetapigateway.Controllers.GatewayController.CallDjangoService(System.String)">
+            <summary>
+            Available API endpoints for Django Service are:
+            hello
+            third-party
+            third-party/{count}
+            </summary>
+        </member>
+    </members>
+</doc>
